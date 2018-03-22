@@ -3,6 +3,12 @@ import { View } from 'react-native'
 import { FontAwesome, MaterialIcons, MaterialCommunityIcons } from '@expo/vector-icons'
 import { black } from './colors'
 
+export function getDailyReminderValue() {
+    return {
+        today: "👋 Don't forget to log your data today!"
+    }
+}
+
 //style={[styles.iconContainer, {backgroundColor: red}]}
 //style={[styles.iconContainer, {backgroundColor: orange}]}
 //style={[styles.iconContainer, {backgroundColor: blue}]}
